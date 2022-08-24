@@ -33,12 +33,9 @@ class prime
         int c=0;
         for(int i=0;i<a;i++)
         {
-            if(is_prime(arr[i])==1)
+            if(is_prime(arr[i])==1 && arr[i]>=b)
             {
-                if(arr[i]>=b)
-                {
-                    c++;
-                }
+                c++;
             }
         }
         System.out.print(c);
